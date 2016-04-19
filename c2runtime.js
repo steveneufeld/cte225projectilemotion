@@ -1290,7 +1290,7 @@ function Mb(h, p, f, l) {
             k.imageSmoothingEnabled = b;
             k.drawImage(a, 0, 0, a.width, a.height, 0, 0, f.width, f.height);
             m.texImage2D(m.TEXTURE_2D, 0, d, s, v, f)
-        } else m.texImage2D(m.TEXTURE_2D, 0, d, s, v, a);
+/*        } else m.texImage2D(m.TEXTURE_2D, 0, d, s, v, a);
         e ? (m.texParameteri(m.TEXTURE_2D,
             m.TEXTURE_WRAP_S, m.REPEAT), m.texParameteri(m.TEXTURE_2D, m.TEXTURE_WRAP_T, m.REPEAT)) : (m.texParameteri(m.TEXTURE_2D, m.TEXTURE_WRAP_S, m.CLAMP_TO_EDGE), m.texParameteri(m.TEXTURE_2D, m.TEXTURE_WRAP_T, m.CLAMP_TO_EDGE));
         b ? (m.texParameteri(m.TEXTURE_2D, m.TEXTURE_MAG_FILTER, m.LINEAR), h && this.yk ? (m.texParameteri(m.TEXTURE_2D, m.TEXTURE_MIN_FILTER, m.LINEAR_MIPMAP_LINEAR), m.generateMipmap(m.TEXTURE_2D)) : m.texParameteri(m.TEXTURE_2D, m.TEXTURE_MIN_FILTER, m.LINEAR)) : (m.texParameteri(m.TEXTURE_2D, m.TEXTURE_MAG_FILTER,
@@ -1302,7 +1302,7 @@ function Mb(h, p, f, l) {
         n.eg = 1;
         n.jk = g;
         l.push(n);
-        return c[g] = n
+        return c[g] = n */
     };
     h.prototype.Fc = function(a, c, b, f) {
         this.hd();
